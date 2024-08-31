@@ -1,0 +1,14 @@
+.chats{
+    background-color:  rgba(240, 240, 240,0.8);
+    border-left: .3px solid rgba(15,15,15,.15); 
+    border-right: .3px solid rgba(15,15,15,.15); 
+}
+.rule{
+    border-bottom: .5px solid rgba(15,15,15,.13);
+    width: 23.438rem;
+}
+
+.search_chats{
+    width: 23.438rem;
+    outline: none;
+}

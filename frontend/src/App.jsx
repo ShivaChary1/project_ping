@@ -2,14 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Login from './components/Autentication/Login'
-import SideBar from './components/chatInterface/sidebar/SideBar'
+import Interface from './components/chatInterface/Interface'
 
 function App() {
 
   return (
     <>
-    <SideBar/>
+    <Interface/>
     </>
   )
 }
