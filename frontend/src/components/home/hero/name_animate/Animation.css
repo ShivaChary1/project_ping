@@ -1,0 +1,57 @@
+@keyframes draw {
+    0% {
+      stroke-dasharray: 0, 1000;
+      stroke-dashoffset: 1000;
+      fill: none;
+    }
+    100% {
+      stroke-dasharray: 1000, 0;
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes fill {
+    0% {
+      fill: none;
+    }
+    10%{
+        fill: rgba(0, 123, 255, 0.1);
+    }
+    20%{
+        fill: rgba(0, 123, 255, .2);
+    }      
+
+    30%{
+        fill: rgba(0, 123, 255, .3);
+    }
+    40% {
+        fill: rgba(0, 123, 255, .4);
+    }
+    50%{
+        fill: rgba(0, 123, 255, .5);
+    }
+    60%{
+        fill: rgba(0, 123, 255, .6);
+    }
+    70%{
+        fill: rgba(0, 123, 255, .7);
+    }
+    80%{
+        fill: rgba(0, 123, 255, .8);
+    }
+    90%{
+        fill: rgba(0, 123, 255, .9);
+    }
+    100% {
+      fill: rgba(0, 123, 255, 1);
+    }
+  }
+  
+  .path {
+    stroke: #007BFF; 
+    stroke-width: 2;
+    fill: none; 
+    animation: draw 2s ease-in-out  forwards, fill 2s ease-in 1s forwards; 
+    stroke-linecap: round; 
+  }
+  

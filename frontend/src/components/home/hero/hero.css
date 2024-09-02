@@ -1,0 +1,41 @@
+.container{
+    column-gap: 2rem;
+}
+
+.p_svg{
+    position: relative;
+    top: 5%;
+}
+.i_svg {
+    position: relative;
+    bottom: 8%;
+}
+.n_svg{
+    position: relative;
+    top: 3.9%;
+}
+.g_svg{
+    position: relative;
+    top:5%;
+}
+
+.msg_box{
+    position: relative;
+    right: 35%;
+    bottom: -5%;
+}
+.info_text{
+    position: absolute;
+    color: #f0f0f0;
+    top: 63%;
+    left: 16%;
+    font-size: 1.8rem;
+    width: 50rem;
+    line-height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn_sd{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+}
