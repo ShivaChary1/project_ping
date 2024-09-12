@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 200%;
+    background-color: black;
+    overflow-y: scroll;
+  }
+  
+  .smooth-scroll-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  
+  
+  

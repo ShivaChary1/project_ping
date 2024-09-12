@@ -21,7 +21,7 @@ const Hero = () => {
     }
   };
 
-  const description = "Welcome to Ping! Effortlessly connect, share, and pay with friends using our fast, versatile app.";
+  const description = "Welcome to Ping! Effortlessly connect, share, and pay to friends using our fast, versatile app.";
 
   const [displayedText, setDisplayedText] = useState("");
 
