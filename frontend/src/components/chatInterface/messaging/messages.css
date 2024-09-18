@@ -13,6 +13,7 @@
 .all_texts{
     height: 52.25rem;
     width: 100%;
+    background-color: #f0f0f0;
 }
 
 .send_msg{

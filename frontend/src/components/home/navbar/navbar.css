@@ -9,6 +9,9 @@
 }
 .nav_bar{
   z-index: 1000;
+  background-color: rgba(15, 15, 15, 0.7); /* Semi-transparent black */
+  backdrop-filter: blur(10px); /* Background blur */
+  -webkit-backdrop-filter: blur(10px); /* For Safari compatibility */
 }
 
 .navi_btn:hover{

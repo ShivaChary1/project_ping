@@ -6,6 +6,9 @@
     grid-template-columns: repeat(4, 1fr);
     padding: 2rem;
 }
+.color_text_big{
+    height: 512px !important;
+}
 
 .img_profile{
     height: 6rem;

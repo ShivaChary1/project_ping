@@ -43,20 +43,20 @@ const Hero = () => {
   return (
     <>
       <div className='flex h-screen container justify-start pt-56 pl-56 items-start w-screen'>
-        <motion.span initial={{ x: '-400px' }} animate={{ x: '0' }} transition={{ duration: 3, type: 'ease-in' }} className='p_svg'>
+        <motion.span initial={{ x: '0px' }} animate={{ x: '0' }} transition={{ duration: 3, type: 'ease-in' }} className='p_svg'>
           <PAnimation />
         </motion.span>
-        <motion.span initial={{ y: '400px' }} animate={{ y: '0' }} transition={{ duration: 3, type: 'ease-in' }} className='i_svg'>
+        <motion.span initial={{ y: '0px' }} animate={{ y: '0' }} transition={{ duration: 3, type: 'ease-in' }} className='i_svg'>
           <IAnimation />
         </motion.span>
-        <motion.span initial={{ y: '-400px' }} animate={{ y: '0' }} transition={{ duration: 3, type: 'ease-in' }} className='n_svg'>
+        <motion.span initial={{ y: '0px' }} animate={{ y: '0' }} transition={{ duration: 3, type: 'ease-in' }} className='n_svg'>
           <NAnimation />
         </motion.span>
-        <motion.span initial={{ x: '400px' }} animate={{ x: '0' }} transition={{ duration: 3, type: 'ease-in' }} className='g_svg'>
+        <motion.span initial={{ x: '0px' }} animate={{ x: '0' }} transition={{ duration: 3, type: 'ease-in' }} className='g_svg'>
           <GAnimation />
         </motion.span>
 
-        <motion.span initial={{ y: "500px" }} animate={{ y: 0 }} transition={{ duration: 1.5, type: "ease-in" }} className='msg_box'>
+        <motion.span initial={{ y: "500px"}} animate={{ y: 0}} transition={{ duration: 1.5, type: "spring", mass: 0.8 }} className='msg_box'>
           <Lottie options={def_options} height={700} width={700} />
         </motion.span>
         <span className='info_text'>

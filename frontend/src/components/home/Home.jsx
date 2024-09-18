@@ -3,6 +3,7 @@ import Navbar from './navbar/Navbar'
 import './home.css'
 import Hero from './hero/Hero'
 import Second from './second_section/Second'
+import ThirdSection from './third_section/ThirdSection'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <Hero />
       <Second/>
+      <ThirdSection/>
     </div>
     </>
   )

@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-    {/* <Interface/> */}
-    <Home/>
+    <Interface/>
+    {/* <Home/> */}
     {/* <SmoothScrollText/> */}
     </>
   )

@@ -1,0 +1,44 @@
+/* .interface1 , .interface2{
+    height: 50vh;
+    border-radius: 2.5rem;
+}
+
+.interface1{
+    position:  absolute;
+    left: 10%;
+    rotate: -5deg;
+}
+
+.interface2{
+    right: 10%;
+    rotate: 5deg;
+    position: absolute;
+} */
+
+.interface1, .interface2 {
+  position: absolute;
+    height: 55vh;
+    border-radius: 2.5rem;
+  }
+  
+  /* Keep the wrapper positioned relatively */
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .interface1 {
+    left: 3%;
+    rotate: -5deg;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+  
+  .interface2 {
+    right: 3%;
+    rotate: 5deg;
+  }
+  
+  .third_section {
+    height: 70% !important;
+  }

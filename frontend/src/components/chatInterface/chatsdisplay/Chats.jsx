@@ -8,7 +8,7 @@ function Chats() {
       <div className="rule h-0 mt-3.5"></div>
 
       <div className="search mt-4">
-        <input className='search_chats h-8 pl-3.5 rounded-lg text-xs' placeholder='Search your chats' type="text" name="Search" id="search_chats" />
+        <input className='search_chats px- h-8 pl-3.5 rounded-lg text-xs' placeholder='Search your chats' type="text" name="Search" id="search_chats" />
       </div>
 
       <div>
